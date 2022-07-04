@@ -1,0 +1,100 @@
+
+.row {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.rowHover {
+    border: none;
+}
+.rowHover :hover {
+    position: relative;
+    outline: 7px solid white;
+    -webkit-box-shadow: 0px 1px 20px 12px rgba(238, 238, 238, 0.144);
+    -moz-box-shadow: 0px 1px 20px 5px rgba(226, 226, 226, 0.068);
+     box-shadow: 0px 0px 20px 12px rgba(70, 69, 69, 0.068);
+     z-index: 10;
+}
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    margin-top: 15%;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width:28%;
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.product{
+    max-width: 300px;
+    max-height: 300px;
+}
+.product :hover{
+    position: relative;
+    background-color: white;
+    z-index: 10;
+}
+
+.productName{
+    position: relative;
+     width: 150px;
+     z-index: 25;
+}
+.productNameBlack{
+    position: relative;
+     width: 150px;
+     margin-top: -68px;
+     z-index: 25;
+}
+.description{
+    width: 150px;
+    
+}
+.gallery{
+    width: 300px;
+    height: 270px;
+    padding-bottom: 25%;
+}
+.price{
+    position: relative;
+    font-weight:normal;
+    margin-top: -28px;
+    z-index: 90;
+}
+
+.circleCartTrue {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: none;
+    bottom: 60px;
+    left: 240px;
+    border-radius: 100%;
+    z-index: 25;
+    background-color: lightgreen;
+ }
+ .circleCartFalse {
+     position: relative;
+     width: 30px;
+     height: 30px;
+     margin: none;
+     bottom: 60px;
+     left: 240px;
+     border-radius: 100%;
+     z-index: 25;
+     background-color: rgb(228, 70, 70);
+  }
+  .noHover{
+    pointer-events: none;
+  }
+  

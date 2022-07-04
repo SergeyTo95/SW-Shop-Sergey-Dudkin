@@ -1,0 +1,21 @@
+.select{
+position: relative;
+}
+.select select{
+
+    max-width: 31px;
+    outline: none;
+    background: none;
+    box-shadow: none;
+    border:0!important
+}
+.option ::active{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -ms-appearance:none;
+    appearance:none;
+    outline: none;
+    background: none;
+    box-shadow: none;
+    border:0!important
+}

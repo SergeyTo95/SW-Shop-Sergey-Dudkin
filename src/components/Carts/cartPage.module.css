@@ -1,0 +1,200 @@
+.heightContainer{
+   position: absolute;
+   margin-top: -30px;
+   z-index: 150;
+}
+.middleContainer{
+   position: absolute;
+   margin-left: 80px;
+   margin-top: -165px;
+   max-width: 300px;
+   max-height: 300px;
+   min-height: 100px;
+   z-index: 150;
+}
+.imgContainer{
+    position: relative;
+    margin-left: 75%;
+    margin-top: 90px;
+    z-index: 5;
+}
+.totalPraceContainer{
+     
+     margin-top:40px;
+     margin-left: 80px;
+     
+}
+.buttonOrder{
+    height: 30px;
+    width: 160px;
+    margin-top: 5px;
+    text-align: center;
+    background-color: rgb(15, 237, 34);
+}
+.order{
+    color: white;
+    font-size: 10px;
+    line-height: 30px;
+    background: transparent;
+    border: none;
+}
+.count{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 5px;
+    z-index: 5;
+}
+.CartNameCategory{
+   font-size: 17px;
+   font-weight: bold;
+   margin-left: 80px;
+   margin-top: 40px;
+}
+.inheritUp{
+    position: absolute;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    width: 1100px;
+    margin-left: 80px;
+    z-index: 150;
+}
+.inheritBottom{
+    position: relative;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    width: 1100px;
+    margin-left: 80px;
+    margin-top: 70px;
+    z-index: 150;
+}
+.nameProduct{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: -55px;
+}
+.subNameProduct{
+    font-size: 17px;
+    margin-left: 80px;
+}
+.priceProduct{
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.attributesButton{
+    display: inline-block;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+.itemsAttrributes{
+    max-width: 41px;
+    min-width: 13px;
+    max-height: 30px;
+    text-align: center;
+    line-height: 24px; 
+    border: 1px solid black;
+    background: white; 
+}
+.itemsAttrributesActive{ 
+    max-width: 41px;
+    min-width: 13px;
+    max-height: 31px;
+    line-height: 24px;
+    background: black;
+    color: white; 
+}
+.itemsAttrributesColor{
+    max-width: 50px;
+    min-width: 20px;
+    height: 20px;
+    text-align: center;
+    background: white; 
+}
+.itemsAttrributesColorWhite{
+    max-width: 50px;
+    min-width: 19px;
+    height: 19px;
+    border: 1px solid black;
+    text-align: center;
+    background: white; 
+}
+.itemsAttrributesColorActive{
+    max-width: 23px;
+    min-width: 23px;
+    height: 23px;
+    margin: 0;
+    text-align: center; 
+}
+.itemsAttrributesColorActiveWhite{
+    max-width: 22px;
+    min-width: 22px;
+    height: 22px;
+    margin: 0;
+    border: 1px solid black;
+    text-align: center; 
+}
+.buttonInfo{
+    max-width: 50px;
+    min-width: 20px;
+    height: 20px;
+    background: transparent;
+    border: none;
+ }
+ .buttonInfoActive{
+    max-width: 50px;
+    min-width: 20px;
+    height: 20px;
+    background: transparent;
+    color: white;
+    border: none;
+ }
+.attributesName{
+    font-weight: bold;
+    margin-top: -10px;
+    margin-top: 10px;
+}
+.imgProduct{
+  position: relative;
+  height: 230px;
+  width: 200px;
+  margin-top: -70px;
+}
+
+.incrementProduct{
+    position: absolute;
+    margin-left: 72%;
+    margin-top: 4%;
+    border: 1px;
+    z-index: 150;
+}
+.incrementPlus{
+    position: relative;
+    margin-top: -240px;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    line-height: 25px;
+    border: 1px black solid;
+    background: none;
+    z-index: 150;
+}
+.plusButton{
+   border: none;
+   font-size: 15px;
+   background: transparent;
+}
+.incrementMinus{
+    position: relative;
+    margin-top: 50px;
+    width: 23px;
+    height: 23px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px black solid;
+    background: none;
+    z-index: 150;
+}
+.minusButton{
+    border: none;
+    font-size: 15px;
+    background: transparent;
+}
